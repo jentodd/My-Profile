@@ -61,6 +61,7 @@ img {
     flex-wrap: wrap;
 }
 
+
 .header h3
 {
     margin-top: 3em;
@@ -119,6 +120,15 @@ img {
     float: right;
 }
 
+.desc{
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 7%;
+
+}
+
 /* screen responsive */
 @media screen and (max-width: 500px) {
   .header a {
@@ -135,24 +145,28 @@ img {
     background-color: #FFCCEE; 
     min-height: 50vh;
     font-size: 3em;
+    text-align: center;
 }
 
 #education{
     background-color: #E8BAC1;
     min-height: 50vh;
     font-size: 3em;
+    text-align: center;
 }
 
 #volleyball{
     background-color: #FFDDD9;
     min-height: 50vh;
     font-size: 3em;
+    text-align: center;
 }
 
 #music{
     background-color: #E8C5BA;
     min-height: 50vh;
     font-size: 3em;
+    text-align: center;
 }
 
 
@@ -160,6 +174,7 @@ img {
     background-color: #FFE0CC;
     min-height: height: 50vh;
     font-size: 2em;
+    text-align: center;
 }
 
 
