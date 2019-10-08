@@ -65,7 +65,8 @@ img {
 .header h3
 {
     margin-top: 3em;
-    font-family: cursive;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 .header h3  
@@ -172,14 +173,24 @@ img {
 
 #comment-section{
     background-color: #FFE0CC;
-    min-height: height: 50vh;
-    font-size: 2em;
-    text-align: center;
+    min-height: 50vh;
+    font-size: 1.5em;
+    padding-left: 2%;
+
 }
 
 
+label{
+    display: block;
+    width: 100%;
 
+}
 
-
-
-
+input#email{
+    font-size: 100%;
+    width: 250px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px #222;
+    border-radius: 15px;
+}
