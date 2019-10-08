@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+/* CSS for the my webpages, some of this css code was found on www.w3schools.com */
+/* header */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header h3
+{
+    margin-top: 3em;
+    font-family: cursive;
+}
+
+.header h3  
+
+{
+    transition: 4s;
+}
+
+#bxslider img{
+    margin: 0 auto;
+}
+
+
+/* header links */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    width: 100vw;
+}
+.header a.logo {
+    width: 100px;
+    height: auto;
+    
+}
+.logo{
+    width: 100px;
+    height: auto;
+    display: block;
+    text-align: right;
+}
+
+/* background color  */
+.header a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+/* active/current link */
+.header a.active {
+    background-color: lightpink;
+    color: white;
+}
+
+
+.header-right {
+    float: right;
+}
+
+/* screen responsive */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+#personal-life{
+    background-color: #FFCCEE; 
+    min-height: 50vh;
+    font-size: 3em;
+}
+
+#education{
+    background-color: #E8BAC1;
+    min-height: 50vh;
+    font-size: 3em;
+}
+
+#volleyball{
+    background-color: #FFDDD9;
+    min-height: 50vh;
+    font-size: 3em;
+}
+
+#music{
+    background-color: #E8C5BA;
+    min-height: 50vh;
+    font-size: 3em;
+}
+
+
+#comment-section{
+    background-color: #FFE0CC;
+    min-height: height: 50vh;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
