@@ -122,7 +122,6 @@ img {
 
 .desc{
     font-size: 25px;
-    text-align: justify;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 7%;
@@ -158,11 +157,14 @@ img {
 h1{
     font-size:30px;
     text-align: center;
+    font-weight: bold;
+    padding: 3%;
 }
 
 h2{
     font-size:.5em;
     text-align: center;
+    padding: 2%;
 }
 
 .desc{
@@ -176,6 +178,7 @@ h2{
 #vballawards li{
     list-style: inside;
     display: list-item;
+    padding-left: 2%;
 }
 #music{
     background-color: #FFE3ED;
@@ -185,6 +188,13 @@ h2{
     list-style: inside;
     display: list-item; 
     text-align: left;
+    padding-left: 2%;
+}
+
+#images{
+    padding-left: 2%;
+    padding-top: 2%;
+
 }
 
 #comment-section{
