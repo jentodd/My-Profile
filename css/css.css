@@ -73,7 +73,6 @@ img {
 .header h3{
     margin-top: 3em;
     font-family: 'Playfair Display', serif;
-    font-style: bold; 
     font-size: 1em;
 }
 
@@ -130,7 +129,7 @@ img {
 }
 
 #personal-life{
-    background-color: #FFCCEE; 
+    background-color: #FFE3ED; 
     min-height: 50vh;
     font-size: 3em;
     text-align: center;
@@ -146,7 +145,7 @@ img {
 }
 
 #education{
-    background-color: #E8BAC1;
+    background-color: #FFE3ED;
     min-height: 50vh;
     font-size: 3em;
     text-align: center;
@@ -171,7 +170,7 @@ h2{
 }
 
 #volleyball{
-    background-color: #FFDDD9;
+    background-color: #FFE3ED;
 }
 
 #vballawards li{
@@ -179,11 +178,9 @@ h2{
     display: list-item;
 }
 #music{
-    background-color: #E8C5BA;
+    background-color: #FFE3ED;
 }
-#artists{
-    padding-left:none;
-}
+
 #artists li{
     list-style: inside;
     display: list-item; 
@@ -191,7 +188,7 @@ h2{
 }
 
 #comment-section{
-    background-color: #FFE0CC;
+    background-color: #FFE3ED;
     min-height: 50vh;
     font-size: 1.5em;
     padding-left: 2%;
