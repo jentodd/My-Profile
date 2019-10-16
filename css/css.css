@@ -69,14 +69,10 @@ img {
     flex-wrap: wrap;
 }
 
-
 .header h3{
     margin-top: 3em;
     font-family: 'Playfair Display', serif;
     font-size: 1em;
-}
-
-.header h3 {
     transition: 4s;
 }
 
@@ -142,6 +138,7 @@ img {
 
 #bxslider img{
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 #education{
@@ -151,9 +148,6 @@ img {
     text-align: center;
 }
 
-#bxslider img{
-    margin: 0 auto;
-}
 
 h1{
     font-size:30px;
@@ -185,6 +179,7 @@ h2{
     background-color: #FFE3ED;
 }
 
+
 #artists li{
     list-style: inside;
     display: list-item; 
@@ -192,15 +187,28 @@ h2{
     padding-left: 2%;
 }
 
-#image_volley{
-    padding-left: 2%;
+#eduction_img{
     padding-top: 2%;
-}
-#image_music{
-    padding-left: 2%;
-    padding-top: 2%;
+    padding: 2%;
 }
 
+#image_volley{
+    padding-top: 2%;
+    padding: 2%;
+}
+#image_music{
+    padding-top: 2%;
+    padding: 2%;
+}
+
+#message{
+    padding-top: 2%;
+    padding: 2%;
+    border-radius: 5px;
+}
+img{
+    border-radius: 5px;
+}
 #comment-section{
     background-color: #FFE3ED;
     min-height: 50vh;
@@ -222,9 +230,6 @@ input#email{
     border-radius: 15px;
 }
 
-img {
-    max-width: 97%;
-}
 
 /* screen responsive */
 @media screen and (max-width: 500px) {
