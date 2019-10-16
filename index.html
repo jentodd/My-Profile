@@ -1,5 +1,5 @@
 <!doctype html>
-<html> 
+<html lang="en"> 
   
 <head>
     <title>Jennifer Anne Todd's Portfolio</title>
@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="css/css.css">
     <meta name ="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-    
-    <style>
-        .top-navigation a:hover;
-    </style>
 </head>
 <body>
     
@@ -18,47 +14,34 @@
         <a href="#default" class="logo"> <img src="photos/brock_volley_hs.png" alt="logo"></a>
         <h3>Jennifer Anne Todd's Portfolio</h3>
         <div class="header-right">
-            <nav class="top-navigation">
+    <nav class="top-navigation">
         <ul id="main-menu">
-            <li><a href="#home">Home</a></li>
+            <li class="current"><a href="#home">Home</a></li>
             <li><a href="#personal-life">Personal Life</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#volleyball">Volleyball</a></li>
             <li><a href="#music">Music</a></li>
         </ul>
-</nav>
-        </div>
+    </nav>
     </div>
-    <section id="home">
-        <h1></h1>
-    </section>
-    
+    </div>
     <section id="personal-life">
         <h1>Personal Life</h1>
         <div id="bxslider">
-            <div id="personal life">
-                <img src="photos/profile_pic.jpg" width="80%" height="80%" alt="personal life">
+            <div id="personal_life_imgbx">
+                <img src="photos/profile_pic.jpg" alt="personal life">
             </div>
-            <div id="education">
-                <img src="photos/campus_lake.JPG" width="80%" height="80%" alt="education">
+            <div id="education_imgbx">
+                <img src="photos/campus_lake.JPG" alt="campus">
             </div>
-            <div id="volleyball">
-                <img src="photos/budapest.jpg" width="80%" height="80%" alt="volleyball">           
-            </div>
-            <div id="music">
-                <img src="photos/john_mayer.jpg" width="80%" height="80%" alt="music">
-            </div>
-            <div id="comment section">
-                <img src="" width="80%" height="80%" alt="comment section">
-                
+            <div id="volleyball_imgbx">
+                <img src="photos/budapest.jpg" alt="budapest">           
             </div>
         </div>
         <div class="desc">
                <p>Hello world! Welcome to my personal portfolio! My name is Jennifer Anne Todd. I am a Canadian girl who is 22 years old. Within this website you will be able to briefly learn about where I go to school, where I played volleyball, and what music I love to listen to. If you have any further questions for me, feel free to leave a message for me in the comment section below!
                 </p>
         </div>
- 
-        
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.14/dist/jquery.bxslider.min.js" integrity="sha256-bApToFmuJpZdnsmRs0zWIEcaHoYxJaZ/+uUAUK6tZd8=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.14/dist/jquery.bxslider.min.css" integrity="sha256-0MhmGD1cJKW5AXubF75G3LpaYwtfXxTENG8ff+Fu3W4=" crossorigin="anonymous">
@@ -70,46 +53,40 @@
     
     <section id="education">
         <h1>Education</h1>
-           <p>Brock University
-           </p>
-        <div id="bxslider">
-          <img src="photos/Brock%20University.jpg" width="100%" height="100%" alt="education">
+           <h2>Brock University
+           </h2>
+        <div id="eduction_img">
+          <img src="photos/Brock%20University.jpg" alt="education">
         </div>
-    </section>
-    
+    </section> 
     
     <section id="volleyball">
         <h1>Volleyball</h1>
-            <ul>
-            <section id="vballawards">
+            <ul id="vballawards">
                <li>Orchard Park MVP</li>
                <li>Mountain Volleyball Club</li>
                <li>Team Ontario</li>
                <li>Brock University</li>
                <li>Brock University Rookie of the Year</li>
-            </section>
             </ul>
-        <div id="volleyball_img">
-          <img src="photos/hitting_volleyball.JPG" max-width="540px" height="auto" alt="education">
+            <div id="volleyball_img">
+          <img src="photos/volleyball.jpg" alt="education">
         </div>
-                <script>
-            $("#bxslider").bxSlider();
-        </script>
     </section>
     
     
     <section id="music">
         <h1>Music</h1>
-        <h2>Artists</h2>
-            <ul>
-            <section id="artists">
+            <ul id="artists">
               <li>John Mayer</li>
               <li>The Weeknd</li>
               <li>Rihanna</li>
               <li>Khalid</li>
               <li>Post Malone</li>
-            </section>
             </ul>
+            <div id="artist_img">
+          <img src="photos/john_mayer.jpg" alt="artists">
+        </div>
     </section>
     
     <section id="comment-section">
@@ -120,13 +97,13 @@
         <label for="suggestion"><input type="radio" name="reason" value="suggestion" id="suggestion">Suggestion</label>
         <label for="question"><input type="radio" name="reason" value="question" id="question">Question</label> 
         <label for="other"><input type="radio" name="reason" value="other" id="other">Other</label><br>
-        <label for="message">Message:<textarea name="message" id="message"  name:"text" cols="50" rows="10"></textarea></label>
+        <label for="message">Message:<textarea name="message" id="message" cols="50" rows="10"></textarea></label>
         <input type="submit" id="submit">
         <input type="reset" id="reset">
         </form>
         
     </section>
-<!----------SCRIPTS------------>    
+<!--SCRIPTS-->    
     
     <script>
         src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
@@ -138,6 +115,5 @@
     </script>
 
 </body>
-    
     
 </html>
