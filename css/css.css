@@ -83,6 +83,7 @@ img {
 
 #bxslider img{
     margin: 0 auto;
+    width: auto;
 }
 
 /* header links */
@@ -191,10 +192,13 @@ h2{
     padding-left: 2%;
 }
 
-#images{
+#image_volley{
     padding-left: 2%;
     padding-top: 2%;
-
+}
+#image_music{
+    padding-left: 2%;
+    padding-top: 2%;
 }
 
 #comment-section{
