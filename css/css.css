@@ -76,6 +76,9 @@ img {
     transition: 4s;
 }
 
+h3:hover{
+    transition: width 5s;
+}
 
 #bxslider img{
     margin: 0 auto;
