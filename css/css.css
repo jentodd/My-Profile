@@ -49,6 +49,12 @@ table {
 	border-spacing: 0;
 }
 
+/****My CSS begins here*****/ 
+
+/*I chose a simple font because...*/
+
+/*I chose the colors I did because...*/
+
 img {
     max-width: 100%
 }
@@ -222,6 +228,15 @@ img{
 label{
     display: block;
     width: 100%;
+}
+
+input#name{
+    font-size: 100%;
+    width: 250px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px #222;
+    border-radius: 15px;
 }
 
 input#email{
