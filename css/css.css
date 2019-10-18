@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-    font-family: 'Playfair Display', serif;
 }
 ol, ul{
 	list-style:none;
@@ -49,17 +48,18 @@ table {
 	border-spacing: 0;
 }
 
-/****My CSS begins here*****/ 
+/**********My CSS begins here**********/ 
 
-/*I chose a simple font because...*/
+/*I chose a simple font, being 'Playfair Display', serif, because it is rather simple and elegant and does not clutter the page. The font is easy to read and matches the simplistic view of the site*/
 
-/*I chose the colors I did because...*/
+/*I chose the lighter shades of pink to make the pictures stand out from the background and to give the site a girly, feminine feel, which displays my personality without meeting me*/
+
+/*I chose the images I did in the boxslider and for the different sections to match the section headers to give the user a more visually appealing experience when viewing my site */
 
 img {
     max-width: 100%
 }
 
-/* CSS for the my webpages, some of this css code was found on www.w3schools.com */
 /* header */
 
 /* background color  */
@@ -217,13 +217,23 @@ h2{
 }
 img{
     border-radius: 5px;
+    
+/*comment section*/
+    
 }
 #comment-section{
     background-color: #FFE3ED;
     min-height: 50vh;
     font-size: 1.5em;
     padding-left: 2%;
+    border: none;
 }
+
+textarea{
+    border: none;
+    vertical-align:text-top;
+}
+
 
 label{
     display: block;
@@ -259,5 +269,6 @@ input#email{
     .header-right {
       float: none;
     }
+    
   }
   
