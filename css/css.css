@@ -75,6 +75,8 @@ img {
     flex-wrap: wrap;
 }
 
+/*Below in the transition: 4s; is where you will see my animation*/
+
 .header h3{
     margin-top: 3em;
     font-family: 'Playfair Display', serif;
